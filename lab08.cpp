@@ -26,7 +26,7 @@ unsigned product(unsigned, unsigned);
 
 int main() {
     // try a ridiculous case that won't work without tail recursion
-    //cout << "6 * 123000 = " << mult(6, 123000) << endl;
+    cout << "6 * 12300 = " << mult(6, 12300) << endl;
     
     // these functions can't demonstrate the usefulness of tail recursion
     // due to data type overflow, but still, good practice
